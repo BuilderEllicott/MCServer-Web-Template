@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="media/style.css">
     <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      /* Added styles to ensure the IP address has enough space */
+      .main1_ipcopier {
+        min-width: 280px; /* Increased minimum width */
+        padding: 12px 20px; /* Added more padding */
+      }
+      .main3_join_values a {
+        word-break: break-word; /* Allows text to wrap if needed */
+        min-width: 200px; /* Ensures minimum width */
+        display: inline-block; /* Makes the width property apply */
+      }
+    </style>
 </head>
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -54,14 +66,14 @@
         </div>
         <div class="main1_ipcopier_div">
           <button class="main1_ipcopier" onclick="copyText()" type="button">
-            <span class="main1_ipcopier_text1">sc-student.site:18799</span>
+            <span class="main1_ipcopier_text1">HexaHollow.exaroton.me</span>
             <br>
             <span class="main1_ipcopier_text2">Click to copy</span>
           </button>
           <script>
             function copyText() {
                 navigator.clipboard.writeText
-            ("sc-student.site:18799");
+            ("HexaHollow.exaroton.me");
                 }
             $(document).ready(function() {
             $('.main1_ipcopier').click(function() {
@@ -208,7 +220,7 @@
                 <a>Version:</a>
               </div>
               <div class="main3_join_values">
-                <a>sc-student.site:18799</a>
+                <a>HexaHollow.exaroton.me</a>
                 <a>Any</a>
               </div>
             </div>
@@ -221,8 +233,8 @@
                 <a>Port:</a>
               </div>
               <div class="main3_join_values">
-                <a>sc-student.site</a>
-                <a>18799</a>
+                <a>HexaHollow.exaroton.me</a>
+                <a>Default</a>
               </div>
             </div>
           </div>
